@@ -1,0 +1,85 @@
+{% extends "layouts/template.html" %}
+{% block title %} Doctor Profile {% endblock %}
+
+{%  block content %}
+<div class="row">
+<div class="col-md-6">
+ <div class="card card-user">
+    <div class="image">
+           </div>
+              <div class="content">
+                 <div class="author">
+                	 <img class="avatar border-gray" src="http://mambangsehat.com/static/img/profile/{{ doctor.image_name }}" alt="..."/>
+
+                        <h4 class="title">{{ doctor.username }}<br />
+                             <small>{{ doctor.full_name }}</small>
+                                      </h4>
+                                    </br>
+                                    </br>
+                                    
+                                </div>
+
+                                <div class="text-center">
+                                <a href="/admin/dashboard/delete-doctor/{{ doctor.id }}" class="btn btn-default">Delete Doctor</a>
+                                
+                                </div>
+                        
+                            </div>
+                            <hr>
+                            
+                        </div>
+                      
+                   </div>
+
+<div class="col-md-6">
+ <div class="card card-user">
+	
+
+	<div class="panel panel-default">
+          <div class="panel-heading">
+          <h4 class="panel-title">User info</h4>
+          </div>
+          <div class="panel-body">
+            <table class="table profile__table">
+              <tbody>
+                <tr>
+                  <th><strong>Username</strong></th>
+                  <td>{{ doctor.username }}</td>
+                </tr>
+                <tr>
+                  <th><strong>Full Name</strong></th>
+                  <td>{{ doctor.full_name }}</td>
+                </tr>
+                <tr>
+                  <th><strong>Phone</strong></th>
+                  <td>{{doctor.phone}}</td>
+                </tr>
+                <tr>
+                  <th><strong>Email</strong></th>
+                  <td>{{doctor.email}}</td>
+                </tr>
+                <tr>
+                  <th><strong>Address</strong></th>
+                  <td>{{ doctor.address}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+  </div>                    
+</div>
+                     
+
+</div>
+
+{% endblock %}

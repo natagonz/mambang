@@ -1,0 +1,120 @@
+{% extends "layouts/template.html" %}
+{% block title %} Dashboard {% endblock %}
+
+{%  block content %}
+{% if current_user.is_authenticated %}
+<link href="{{url_for ('static',filename='css/patient.css')}}" rel="stylesheet" />
+    
+<div class="col-md-12">
+<div class="row">
+    <div class="col-sm-12 col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-header-headshot"><img class="img-responsive" id="image" src="http://mambangsehat.com/static/img/profile/{{patient.image_name}}"></div>
+            </div>
+            <div class="card-content">
+                <div class="card-content-member">
+                    <h4 class="m-t-0">{{patient.name}}</h4>
+                    <p class="m-0"><i class="pe-7s-map-marker"></i>{{patient.address}}</p>
+                </div>
+                <div class="card-content-languages">
+                    <div class="card-content-languages-group">
+                        <div>
+                            <h4>Tanggal Lahir:</h4>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>{{ patient.birthdate  }}
+                                    <div class="fluency fluency-4"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-content-languages-group">
+                        <div>
+                            <h4>Bio </h4>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>{{patient.description}}</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-8">
+        <div class="review-block">
+        <h3>Report</h3>
+        </br>
+        {% for report in reports %}
+            <div class="row">
+                <div class="col-sm-12">
+                      <div class="review-block-name">Dokter : {{ report.doctor }}</a></div>
+                    <div class="review-block-date">{{ report.date }}</div>
+                    </br>
+                    <div class="review-block-title">{{ report.title }}</div>
+                        </br>
+                    <div class="review-block-description">{{ report.report }} </div>
+                    </br>
+                    <div class="review-block-description">Dokter Comment : {{ report.comment }} </div>
+                   </br>
+		    <div>
+                        <img class="img-responsive" src="http://mambangsehat.com/static/img/profile/{{report.image_name}}">
+                    </div>
+
+                    </br>
+                </div>
+            </div>
+            <hr>
+            {% endfor %}
+            </div>
+           
+    </div>
+</div> 
+</div>
+
+  
+{% endif %}
+{% endblock %}
+<!--
+<div class="row">
+<div class="col-md-6">
+ <div class="card card-user">
+    <div class="image">
+           </div>
+              <div class="content">
+                 <div class="author">
+                   <img class="avatar border-gray" src="{{ patient.image_url }}" alt="..."/>
+
+                        <h4 class="title">{{ patient.name }}<br />
+                             <small>{{ patient.description }}</small>
+                                      </h4>
+                                    </br>
+                                    </br>
+                                    
+                                    <p>Nama : {{patient.name}} </p>
+                                    <p>Tanggal Lahir  : {{patient.birthdate}}</p>
+                                    <p>Alamat : {{patient.address}}</p>
+                                    
+                                </div>
+                                <div class="text-center">
+                                <a href="/doctor/dashboard/edit-patient/{{ patient.id }}" class="btn btn-default">Edit Patient</a>
+                                <a href="/doctor/dashboard/delete-patient/{{ patient.id }}" class="btn btn-default">Delete Patient</a>
+                                
+                                </div>
+                                
+                            </div>
+                            <hr>
+                            
+                        </div>
+                      
+                   </div>
+</div>
+
+
+
+
+

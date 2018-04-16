@@ -1,0 +1,91 @@
+{% extends "layouts/doctortemplate.html" %}
+{% block title %} Edit Pasien {% endblock %}
+
+{%  block content %}
+
+	<div class="col-md-8">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Edit Pasien</h4>
+                            </div>
+                            <div class="content">
+                            {% from "includes/_formhelpers.html" import render_field %}
+                                <form method="POST" enctype="multipart/form-data">
+                                {{ form.hidden_tag() }}
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                {{ render_field(form.name, class="form-control")}}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                {{ render_field(form.phone, class="form-control")}}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                {{ render_field(form.birthdate, class="form-control")}}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                {{ render_field(form.address, class="form-control")}}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                {{ render_field(form.description, class="form-control")}}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                  
+                                    <button type="submit" class="btn btn-info btn-fill pull-right">Submit</button>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+      				 <div class="col-md-4">
+                        <div class="card card-user">
+                            <div class="image">
+                                
+                            </div>
+                            <div class="content">
+                                <div class="author">
+                                    <img class="avatar border-gray" src="{{ patient.image_url }}" alt="..."/>
+
+                                      <h4 class="title">{{ patient.name }}<br />
+                                      </h4>
+                                    </br>
+                                    </br>
+                                    
+                                </div>
+
+                                <div class="text-center">
+                                <a href="/doctor/dashboard/patient/photo/{{ patient.id }}" class="btn btn-default">Change Photo</a>
+                                
+                                </div>
+                        
+                            </div>
+                            <hr>
+                            
+                        </div>
+                    </div>
+	
+
+{% endblock %}
+

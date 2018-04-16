@@ -1,0 +1,50 @@
+{% extends "layouts/template.html" %}
+{% block title %} Dashboard {% endblock %}
+
+{%  block content %}
+<link href="{{url_for ('static',filename='css/doctor-list.css')}}" rel="stylesheet" />
+<div class="col-md-12">
+<div class="card">
+<div class="container bootstrap snippet">
+ 	</br>
+	</br>   
+ 
+    <div class="row">
+    {% for patient in patients %}
+        <div class="col-sm-5">
+            <div class="panel">
+                <div class="panel-body p-t-10">
+                    <div class="media-main">
+                        <a class="pull-left" href="#">
+                            <img class="thumb-lg img-circle bx-s" src="http://mambangsehat.com/static/img/profile/{{patient.image_name}}" alt="">
+                        </a>
+                        <div class="info">
+                            <h4><a href="patient/{{patient.id}}">{{patient.name}}</a></h4>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <hr>
+                    <ul class="social-links list-inline p-b-10">
+                        <li>
+                            <a href="patient/{{patient.id}}" class="btn btn-success tooltips" data-placement="top" data-toggle="tooltip">
+                                Lihat Profile
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        </div>
+        </div>
+    </div>
+</div>
+
+    
+
+
+
+
+
+{% endblock %}

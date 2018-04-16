@@ -1,0 +1,52 @@
+{% extends "layouts/layout.html" %}
+{% block title  %} Home {% endblock %}
+
+{% block content %}
+
+ <link href="{{url_for ('static',filename='css/index.css')}}" rel="stylesheet"/>
+
+
+<div class="row">
+
+	<div class="col-md-3" id="imagess">
+		</br>
+		<img src="https://i.pinimg.com/originals/3b/fb/d4/3bfbd496fca836303092e8f29d916986.png">
+	</div>
+	
+
+	<div class="col-md-7">
+		<h1 id="title"> Mambang Health Center </h1>
+		</br>
+		<p id="paragraph">
+			Website ini diperuntukan bagi warga Mambang Gede,untuk melihat kondisi terkini mengenai kondisi kesehatan keluarganya.
+			Anda dapat mendaftar dan melihat kondisi terkini dari warga di mambang gede. Kami juga akan sediakan artikel mengenai dunia kesehatan. Semoga Website ini bermanfaat bagi warga mambang gede. 
+		</p>
+		</br>
+		<a href="/register-user" class="btn btn-default" id="button">Daftar Disini </a>
+		<a href="/login" class="btn btn-default" id="button"> Sudah Punya akun ? Masuk Disini </a>		
+	</div>
+
+</div>
+<hr>
+ <footer class="footer">
+ 	<p class="text-center"><a href="http://nightprojects.co">Tabanan 2017</a></p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

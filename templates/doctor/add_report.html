@@ -1,0 +1,62 @@
+{% extends "layouts/doctortemplate.html" %}
+{% block title %} Tambah Report {% endblock %}
+
+{%  block content %}
+<div class="col-md-8">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Tambah Report</h4>
+                            </div>
+                            <div class="content">
+                            {% from "includes/_formhelpers.html" import render_field %}
+                                <form method="POST" enctype="multipart/form-data">
+                                {{ form.hidden_tag() }}
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                {{ render_field(form.title, class="form-control")}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                {{ render_field(form.report, class="form-control")}}
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+				    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                {{ render_field(form.comment, class="form-control")}}
+                                            </div>
+                                        </div>
+                                    </div>
+				    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                {{ render_field(form.image, class="form-control")}}
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <button type="submit" class="btn btn-info btn-fill pull-right">Submit</button>
+                                    <div class="clearfix"></div>
+
+                                </form>
+
+                                
+                                </div>
+                        
+                            </div>
+                            <hr>
+                            
+</div>
+
+
+
+
+{% endblock %}
+

@@ -1,0 +1,35 @@
+
+body{
+    background-color: #edf0f0;    
+}
+.btn-primary, 
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.btn-primary.focus, 
+.btn-primary:active, 
+.btn-primary:focus, 
+.btn-primary:hover, 
+.open>.dropdown-toggle.btn-primary {
+    background-color: #3bc0c3;
+    border: 1px solid #3bc0c3;
+}
+.p-t-10 {
+    padding-top: 10px !important;
+}
+.media-main a.pull-left {
+    width: 100px;
+}
+.thumb-lg {
+    height: 100px;
+    width: 100px;
+}
+.media-main .info {
+    overflow: hidden;
+    color: #000;
+}
+.info h4 p {
+   
+    padding-left: 10px;
+}

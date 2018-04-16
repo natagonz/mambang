@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mambang Sehat| {% block title %} {% endblock %}</title>
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name="viewport" content="width=device-width" />
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+	{% include "includes/_navbar.html" %} <!-- extend dari _navbar.html -->
+
+	<div class="container">
+		{% include "includes/_message.html" %} <!-- extend dari _message.html untuk merender flash mesaage -->
+		{% block content %}
+
+		<!-- bagian body halaman -->
+
+		{% endblock %}
+	</div>
+
+
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+</body>
+</html>
+
+
+
+<!-- layout master untuk tidak mengulangi membuat code html lagi di beberapa halaman. tinggal di extends -->

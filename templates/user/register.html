@@ -1,0 +1,54 @@
+{% extends "layouts/layout.html" %}
+{% block title %} Register User {% endblock %}
+
+{%  block content %}
+<link href="{{url_for ('static',filename='css/auth.css')}}" rel="stylesheet"/>
+<div class="card-block">
+</br>
+	</br>
+<div class="row">
+	<div class="col-md-3"></div>
+	<div class="col-md-6" id="reg">
+	<h3>Daftar Disini</h3>
+	<p>Harap Semua Form Di Isi,Agar Pendaftaran Berhasil</p>
+	<hr class="heads">
+	{% from "includes/_formhelpers.html" import render_field %}
+	<form method="POST" enctype="multipart/form-data" action=>
+		{{ form.hidden_tag() }}
+		<div class="form-group">
+			{{ render_field(form.username, class="form-control")}}
+		</div>
+		<div class="form-group">
+			{{ render_field(form.full_name, class="form-control")}}
+		</div>
+		<div class="form-group">
+			{{ render_field(form.phone, class="form-control")}}
+		</div>
+		<div class="form-group">
+			{{ render_field(form.email, class="form-control")}}
+		</div>
+		<div class="form-group">
+			{{ render_field(form.password, class="form-control")}}
+		</div>
+		<div class="form-group">
+			{{ render_field(form.confirm, class="form-control")}}
+		</div>
+		<div class="form-group">
+			{{ render_field(form.address, class="form-control")}}
+		</div>
+		<div class="form-group">
+			{{ render_field(form.image)}}
+		</div>
+		<p><input type="submit" class="btn btn-primary" value="Submit">
+	</form>
+	</div>
+	<div class="col-md-3"></div>
+</div>
+</div>
+<hr>
+ <footer class="footer">
+ 	<p class="text-center"><a href="http://nightproject.co">Nata</a>,Tabanan 2017</p>
+  </footer>
+
+{% endblock %}
+

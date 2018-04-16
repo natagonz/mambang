@@ -1,0 +1,1224 @@
+
+[2017-10-12 13:22:37 +0000] [18279] [INFO] Worker exiting (pid: 18279)
+[2017-10-12 13:22:37 +0000] [18278] [INFO] Worker exiting (pid: 18278)
+[2017-10-12 13:22:37 +0000] [18280] [INFO] Worker exiting (pid: 18280)
+[2017-10-12 13:22:37 +0000] [18274] [INFO] Handling signal: term
+[2017-10-12 13:22:37 +0000] [18274] [INFO] Shutting down: Master
+[2017-10-12 13:22:46 +0000] [288] [INFO] Starting gunicorn 19.7.1
+[2017-10-12 13:22:46 +0000] [288] [INFO] Listening at: unix:mambangsehat.sock (288)
+[2017-10-12 13:22:46 +0000] [288] [INFO] Using worker: sync
+[2017-10-12 13:22:46 +0000] [354] [INFO] Booting worker with pid: 354
+[2017-10-12 13:22:46 +0000] [355] [INFO] Booting worker with pid: 355
+[2017-10-12 13:22:46 +0000] [359] [INFO] Booting worker with pid: 359
+[2017-10-12 13:25:48 +0000] [359] [INFO] Worker exiting (pid: 359)
+[2017-10-12 13:25:48 +0000] [355] [INFO] Worker exiting (pid: 355)
+[2017-10-12 13:25:48 +0000] [354] [INFO] Worker exiting (pid: 354)
+[2017-10-12 13:25:48 +0000] [288] [INFO] Handling signal: term
+[2017-10-12 13:25:48 +0000] [288] [INFO] Shutting down: Master
+[2017-10-12 13:25:57 +0000] [285] [INFO] Starting gunicorn 19.7.1
+[2017-10-12 13:25:57 +0000] [285] [INFO] Listening at: unix:mambangsehat.sock (285)
+[2017-10-12 13:25:57 +0000] [285] [INFO] Using worker: sync
+[2017-10-12 13:25:57 +0000] [355] [INFO] Booting worker with pid: 355
+[2017-10-12 13:25:57 +0000] [356] [INFO] Booting worker with pid: 356
+[2017-10-12 13:25:57 +0000] [360] [INFO] Booting worker with pid: 360
+[2017-10-12 13:31:23 +0000] [285] [INFO] Handling signal: term
+[2017-10-12 13:31:23 +0000] [356] [INFO] Worker exiting (pid: 356)
+[2017-10-12 13:31:23 +0000] [355] [INFO] Worker exiting (pid: 355)
+[2017-10-12 13:31:23 +0000] [360] [INFO] Worker exiting (pid: 360)
+[2017-10-12 13:31:23 +0000] [285] [INFO] Shutting down: Master
+[2017-10-12 13:31:32 +0000] [287] [INFO] Starting gunicorn 19.7.1
+[2017-10-12 13:31:32 +0000] [287] [INFO] Listening at: unix:mambangsehat.sock (287)
+[2017-10-12 13:31:32 +0000] [287] [INFO] Using worker: sync
+[2017-10-12 13:31:32 +0000] [355] [INFO] Booting worker with pid: 355
+[2017-10-12 13:31:32 +0000] [356] [INFO] Booting worker with pid: 356
+[2017-10-12 13:31:32 +0000] [358] [INFO] Booting worker with pid: 358
+[2017-10-12 13:33:15 +0000] [355] [INFO] Worker exiting (pid: 355)
+[2017-10-12 13:33:15 +0000] [356] [INFO] Worker exiting (pid: 356)
+[2017-10-12 13:33:15 +0000] [358] [INFO] Worker exiting (pid: 358)
+[2017-10-12 13:33:15 +0000] [287] [INFO] Handling signal: term
+[2017-10-12 13:33:15 +0000] [287] [INFO] Shutting down: Master
+[2017-10-12 13:33:24 +0000] [289] [INFO] Starting gunicorn 19.7.1
+[2017-10-12 13:33:24 +0000] [289] [INFO] Listening at: unix:mambangsehat.sock (289)
+[2017-10-12 13:33:24 +0000] [289] [INFO] Using worker: sync
+[2017-10-12 13:33:24 +0000] [365] [INFO] Booting worker with pid: 365
+[2017-10-12 13:33:24 +0000] [369] [INFO] Booting worker with pid: 369
+[2017-10-12 13:33:24 +0000] [371] [INFO] Booting worker with pid: 371
+[2017-10-12 13:52:11 +0000] [289] [INFO] Handling signal: term
+[2017-10-12 13:52:11 +0000] [371] [INFO] Worker exiting (pid: 371)
+[2017-10-12 13:52:11 +0000] [365] [INFO] Worker exiting (pid: 365)
+[2017-10-12 13:52:11 +0000] [369] [INFO] Worker exiting (pid: 369)
+[2017-10-12 13:52:11 +0000] [289] [INFO] Shutting down: Master
+[2017-10-12 13:52:21 +0000] [284] [INFO] Starting gunicorn 19.7.1
+[2017-10-12 13:52:21 +0000] [284] [INFO] Listening at: unix:mambangsehat.sock (284)
+[2017-10-12 13:52:21 +0000] [284] [INFO] Using worker: sync
+[2017-10-12 13:52:21 +0000] [354] [INFO] Booting worker with pid: 354
+[2017-10-12 13:52:21 +0000] [355] [INFO] Booting worker with pid: 355
+[2017-10-12 13:52:21 +0000] [357] [INFO] Booting worker with pid: 357
+[2017-10-13 11:30:27,100] ERROR in app: Exception on /reset-password [GET]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 475, in ResetPasswordUser
+    mail.send(msg)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (534, '5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbvM\n5.7.14 Pm6tRlKv98Q835vOP4jl0ywLKl8cZCpW-ogOw9s_Dvriiire1EgRtCIyixuI1G0UY-iU00\n5.7.14 xCo5X284ZDoojBMxqgJC-TmjGPr-aBGHPTafEgUkUZ5gfrTla0Pew2BD559vIvrYGIpCku\n5.7.14 1IWKYQKwdZQFXVQxbPZT7jJxGDBistnpfe4tzJyh6MK_DGhK7TwBAYtZNuDkmP_HvJngl7\n5.7.14 SR2oiFwR-U5-ve2__4y7fRv60kyAk> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14  Learn more at\n5.7.14  https://support.google.com/mail/answer/78754 125sm35500pff.14 - gsmtp')
+[2017-10-13 11:30:32,661] ERROR in app: Exception on /reset-password [GET]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 475, in ResetPasswordUser
+    mail.send(msg)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (534, '5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbvG\n5.7.14 R11dZXW8w-2QLF_0IUPOmI3WBe95c01rxVH9DJ-_-K8enYns_Y7oo4ZsCCWvJEIBYx9kpM\n5.7.14 e18jNkoB088xng4zKRqwB93hBl8y8WoSUWjQWKWkiuk5BcflThLZb2K2wBdr9JDl5KpkMi\n5.7.14 ocpe-xss4Q5j7G9giWU0xNGon8tg_Yij85rcJVhN_qPTnOqI_cqHMjQwN3D-YLfpAHxmEZ\n5.7.14 qv6vH6pyj5PQHbr8ETJtgrozAhEz0> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14  Learn more at\n5.7.14  https://support.google.com/mail/answer/78754 m9sm10975pgt.49 - gsmtp')
+[2017-10-13 11:33:04,812] ERROR in app: Exception on /reset-password [GET]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 475, in ResetPasswordUser
+    mail.send(msg)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (534, '5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbtg\n5.7.14 4SAATWjec89kwra0gqTPtRx4YAEiqn2Zox5L2AMWPo54H_IpmWpYlGBWERsh4k6FqAwQSh\n5.7.14 FKDXtvZ5626C-XHJsHjCtJcacJ8IcCKT1aBsqgFkff6ZS_UnQmux6M6AG9ZRfvb7hnWA-K\n5.7.14 VHIDCQe7b2ELKqNI43xbxbrLd5Knay7cdSx2C_xyQoHn9_7o3M_Ce-VHHvhvrjfTlsFqRH\n5.7.14 w4eIzZxRCQVlj7eFJteWnRo094l7w> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14  Learn more at\n5.7.14  https://support.google.com/mail/answer/78754 k76sm37831pfb.37 - gsmtp')
+[2017-10-13 11:34:36,133] ERROR in app: Exception on /reset-password [GET]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 475, in ResetPasswordUser
+    mail.send(msg)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (534, '5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbuP\n5.7.14 ARtUiIgwpRB-smU6KtZEYw-3s3QdohYx872OT4VvK_Y7kKz50E3LSJcm5QDSqSVpS-rfIv\n5.7.14 E59TcpjqhYuHNA2QcjWG5N3XidMLIY28D4ZhlSyrEomA7aenShttg8iY_mUUEoFntjsxW4\n5.7.14 DcVp08Gm89rpxdk1l5Rx_0xk9NvovsmuL7KmTwjAHNBBwQC_Q0m-HMoFEpc8r09y0iHgla\n5.7.14 fuZOJHqNHC6EkD8sriFLSSLmbyxpA> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14  Learn more at\n5.7.14  https://support.google.com/mail/answer/78754 e66sm27120pfe.79 - gsmtp')
+[2017-10-13 11:34:56,252] ERROR in app: Exception on /forgot-password [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/app.py", line 496, in ForgotPassword
+    mail.send(msg)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (534, '5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbvF\n5.7.14 zr3IDElhTidCYIdO8rvjdZ6Xv9NPI8o4-ytnrMUTxVRQHpBL1FbvUlKYc6-uGdpedsTfaa\n5.7.14 SxJ7Wg5vf6NKLGQ_ptmSAHKuZ2EpN3RASFfCjGWYh9f8KBfmfLWvhxb3dVUXYszdx70J5z\n5.7.14 wSwFgbfO8bmQeUCFNM-6n5mwEhtAv8ZsU7L_LpnGjber5weyfYlZdfJkqFa5nZmTL0506U\n5.7.14 UDhuPnYGY1ZU6YM1wIre9UxQ_hhus> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14  Learn more at\n5.7.14  https://support.google.com/mail/answer/78754 s88sm44354pfe.36 - gsmtp')
+[2017-10-13 11:59:20 +0000] [355] [INFO] Worker exiting (pid: 355)
+[2017-10-13 11:59:20 +0000] [357] [INFO] Worker exiting (pid: 357)
+[2017-10-13 11:59:20 +0000] [354] [INFO] Worker exiting (pid: 354)
+[2017-10-13 11:59:20 +0000] [284] [INFO] Handling signal: term
+[2017-10-13 11:59:20 +0000] [284] [INFO] Shutting down: Master
+[2017-10-13 11:59:29 +0000] [285] [INFO] Starting gunicorn 19.7.1
+[2017-10-13 11:59:29 +0000] [285] [INFO] Listening at: unix:mambangsehat.sock (285)
+[2017-10-13 11:59:29 +0000] [285] [INFO] Using worker: sync
+[2017-10-13 11:59:29 +0000] [354] [INFO] Booting worker with pid: 354
+[2017-10-13 11:59:29 +0000] [355] [INFO] Booting worker with pid: 355
+[2017-10-13 11:59:29 +0000] [358] [INFO] Booting worker with pid: 358
+[2017-10-13 12:27:50 +0000] [355] [INFO] Worker exiting (pid: 355)
+[2017-10-13 12:27:50 +0000] [358] [INFO] Worker exiting (pid: 358)
+[2017-10-13 12:27:50 +0000] [354] [INFO] Worker exiting (pid: 354)
+[2017-10-13 12:27:50 +0000] [285] [INFO] Handling signal: term
+[2017-10-13 12:27:50 +0000] [285] [INFO] Shutting down: Master
+[2017-10-13 12:27:59 +0000] [284] [INFO] Starting gunicorn 19.7.1
+[2017-10-13 12:27:59 +0000] [284] [INFO] Listening at: unix:mambangsehat.sock (284)
+[2017-10-13 12:27:59 +0000] [284] [INFO] Using worker: sync
+[2017-10-13 12:27:59 +0000] [352] [INFO] Booting worker with pid: 352
+[2017-10-13 12:27:59 +0000] [353] [INFO] Booting worker with pid: 353
+[2017-10-13 12:27:59 +0000] [357] [INFO] Booting worker with pid: 357
+[2017-10-13 13:40:00 +0000] [352] [INFO] Worker exiting (pid: 352)
+[2017-10-13 13:40:00 +0000] [357] [INFO] Worker exiting (pid: 357)
+[2017-10-13 13:40:00 +0000] [284] [INFO] Handling signal: term
+[2017-10-13 13:40:00 +0000] [353] [INFO] Worker exiting (pid: 353)
+[2017-10-13 13:40:00 +0000] [284] [INFO] Shutting down: Master
+[2017-10-13 13:40:19 +0000] [285] [INFO] Starting gunicorn 19.7.1
+[2017-10-13 13:40:19 +0000] [285] [INFO] Listening at: unix:mambangsehat.sock (285)
+[2017-10-13 13:40:19 +0000] [285] [INFO] Using worker: sync
+[2017-10-13 13:40:19 +0000] [355] [INFO] Booting worker with pid: 355
+[2017-10-13 13:40:19 +0000] [357] [INFO] Booting worker with pid: 357
+[2017-10-13 13:40:19 +0000] [361] [INFO] Booting worker with pid: 361
+[2017-10-13 13:46:57 +0000] [357] [INFO] Worker exiting (pid: 357)
+[2017-10-13 13:46:57 +0000] [361] [INFO] Worker exiting (pid: 361)
+[2017-10-13 13:46:57 +0000] [355] [INFO] Worker exiting (pid: 355)
+[2017-10-13 13:46:57 +0000] [285] [INFO] Handling signal: term
+[2017-10-13 13:46:57 +0000] [285] [INFO] Shutting down: Master
+[2017-10-13 13:47:06 +0000] [286] [INFO] Starting gunicorn 19.7.1
+[2017-10-13 13:47:06 +0000] [286] [INFO] Listening at: unix:mambangsehat.sock (286)
+[2017-10-13 13:47:06 +0000] [286] [INFO] Using worker: sync
+[2017-10-13 13:47:06 +0000] [348] [INFO] Booting worker with pid: 348
+[2017-10-13 13:47:06 +0000] [354] [INFO] Booting worker with pid: 354
+[2017-10-13 13:47:06 +0000] [358] [INFO] Booting worker with pid: 358
+[2017-10-13 13:50:26 +0000] [348] [INFO] Worker exiting (pid: 348)
+[2017-10-13 13:50:26 +0000] [358] [INFO] Worker exiting (pid: 358)
+[2017-10-13 13:50:26 +0000] [286] [INFO] Handling signal: term
+[2017-10-13 13:50:26 +0000] [354] [INFO] Worker exiting (pid: 354)
+[2017-10-13 13:50:27 +0000] [286] [INFO] Shutting down: Master
+[2017-10-13 13:50:35 +0000] [285] [INFO] Starting gunicorn 19.7.1
+[2017-10-13 13:50:35 +0000] [285] [INFO] Listening at: unix:mambangsehat.sock (285)
+[2017-10-13 13:50:35 +0000] [285] [INFO] Using worker: sync
+[2017-10-13 13:50:35 +0000] [354] [INFO] Booting worker with pid: 354
+[2017-10-13 13:50:35 +0000] [355] [INFO] Booting worker with pid: 355
+[2017-10-13 13:50:35 +0000] [359] [INFO] Booting worker with pid: 359
+[2017-10-16 14:33:28 +0000] [359] [INFO] Worker exiting (pid: 359)
+[2017-10-16 14:33:28 +0000] [355] [INFO] Worker exiting (pid: 355)
+[2017-10-16 14:33:28 +0000] [354] [INFO] Worker exiting (pid: 354)
+[2017-10-16 14:33:28 +0000] [285] [INFO] Handling signal: term
+[2017-10-16 14:33:28 +0000] [285] [INFO] Shutting down: Master
+[2017-10-16 14:33:38 +0000] [285] [INFO] Starting gunicorn 19.7.1
+[2017-10-16 14:33:38 +0000] [285] [INFO] Listening at: unix:mambangsehat.sock (285)
+[2017-10-16 14:33:38 +0000] [285] [INFO] Using worker: sync
+[2017-10-16 14:33:38 +0000] [353] [INFO] Booting worker with pid: 353
+[2017-10-16 14:33:38 +0000] [354] [INFO] Booting worker with pid: 354
+[2017-10-16 14:33:38 +0000] [358] [INFO] Booting worker with pid: 358
+[2017-10-16 14:44:54 +0000] [358] [INFO] Worker exiting (pid: 358)
+[2017-10-16 14:44:54 +0000] [353] [INFO] Worker exiting (pid: 353)
+[2017-10-16 14:44:54 +0000] [354] [INFO] Worker exiting (pid: 354)
+[2017-10-16 14:44:54 +0000] [285] [INFO] Handling signal: term
+[2017-10-16 14:44:54 +0000] [285] [INFO] Shutting down: Master
+[2017-10-16 14:45:12 +0000] [287] [INFO] Starting gunicorn 19.7.1
+[2017-10-16 14:45:12 +0000] [287] [INFO] Listening at: unix:mambangsehat.sock (287)
+[2017-10-16 14:45:12 +0000] [287] [INFO] Using worker: sync
+[2017-10-16 14:45:12 +0000] [354] [INFO] Booting worker with pid: 354
+[2017-10-16 14:45:13 +0000] [356] [INFO] Booting worker with pid: 356
+[2017-10-16 14:45:13 +0000] [360] [INFO] Booting worker with pid: 360
+[2017-10-26 15:05:24 +0000] [354] [INFO] Worker exiting (pid: 354)
+[2017-10-26 15:05:24 +0000] [360] [INFO] Worker exiting (pid: 360)
+[2017-10-26 15:05:24 +0000] [356] [INFO] Worker exiting (pid: 356)
+[2017-10-26 15:05:24 +0000] [287] [INFO] Handling signal: term
+[2017-10-26 15:05:24 +0000] [287] [INFO] Shutting down: Master
+[2017-10-26 15:05:44 +0000] [283] [INFO] Starting gunicorn 19.7.1
+[2017-10-26 15:05:44 +0000] [283] [INFO] Listening at: unix:mambangsehat.sock (283)
+[2017-10-26 15:05:44 +0000] [283] [INFO] Using worker: sync
+[2017-10-26 15:05:44 +0000] [351] [INFO] Booting worker with pid: 351
+[2017-10-26 15:05:44 +0000] [352] [INFO] Booting worker with pid: 352
+[2017-10-26 15:05:44 +0000] [354] [INFO] Booting worker with pid: 354
+[2017-10-26 15:35:58 +0000] [283] [INFO] Handling signal: term
+[2017-10-26 15:35:58 +0000] [354] [INFO] Worker exiting (pid: 354)
+[2017-10-26 15:35:58 +0000] [351] [INFO] Worker exiting (pid: 351)
+[2017-10-26 15:35:58 +0000] [352] [INFO] Worker exiting (pid: 352)
+[2017-10-26 15:35:59 +0000] [283] [INFO] Shutting down: Master
+[2017-10-26 15:36:07 +0000] [287] [INFO] Starting gunicorn 19.7.1
+[2017-10-26 15:36:07 +0000] [287] [INFO] Listening at: unix:mambangsehat.sock (287)
+[2017-10-26 15:36:07 +0000] [287] [INFO] Using worker: sync
+[2017-10-26 15:36:07 +0000] [354] [INFO] Booting worker with pid: 354
+[2017-10-26 15:36:07 +0000] [355] [INFO] Booting worker with pid: 355
+[2017-10-26 15:36:07 +0000] [359] [INFO] Booting worker with pid: 359
+[2017-10-26 15:47:13 +0000] [287] [INFO] Handling signal: term
+[2017-10-26 15:47:13 +0000] [354] [INFO] Worker exiting (pid: 354)
+[2017-10-26 15:47:13 +0000] [355] [INFO] Worker exiting (pid: 355)
+[2017-10-26 15:47:13 +0000] [359] [INFO] Worker exiting (pid: 359)
+[2017-10-26 15:47:13 +0000] [287] [INFO] Shutting down: Master
+[2017-10-26 15:47:23 +0000] [284] [INFO] Starting gunicorn 19.7.1
+[2017-10-26 15:47:23 +0000] [284] [INFO] Listening at: unix:mambangsehat.sock (284)
+[2017-10-26 15:47:23 +0000] [284] [INFO] Using worker: sync
+[2017-10-26 15:47:23 +0000] [351] [INFO] Booting worker with pid: 351
+[2017-10-26 15:47:23 +0000] [355] [INFO] Booting worker with pid: 355
+[2017-10-26 15:47:23 +0000] [356] [INFO] Booting worker with pid: 356
+[2017-10-26 15:54:37 +0000] [351] [INFO] Worker exiting (pid: 351)
+[2017-10-26 15:54:37 +0000] [355] [INFO] Worker exiting (pid: 355)
+[2017-10-26 15:54:37 +0000] [284] [INFO] Handling signal: term
+[2017-10-26 15:54:37 +0000] [356] [INFO] Worker exiting (pid: 356)
+[2017-10-26 15:54:37 +0000] [284] [INFO] Shutting down: Master
+[2017-10-26 15:54:46 +0000] [286] [INFO] Starting gunicorn 19.7.1
+[2017-10-26 15:54:46 +0000] [286] [INFO] Listening at: unix:mambangsehat.sock (286)
+[2017-10-26 15:54:46 +0000] [286] [INFO] Using worker: sync
+[2017-10-26 15:54:46 +0000] [353] [INFO] Booting worker with pid: 353
+[2017-10-26 15:54:46 +0000] [355] [INFO] Booting worker with pid: 355
+[2017-10-26 15:54:46 +0000] [359] [INFO] Booting worker with pid: 359
+[2017-11-19 18:12:49,885] ERROR in app: Exception on /admin/dashboard/register-doctor [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 389, in RegisterDoctor
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-11-27 17:31:45,678] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-11-27 17:33:18,712] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-11-27 17:33:53,520] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:24:05,473] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:24:18,138] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:24:27,034] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:24:41,908] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:25:02,541] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:25:19,975] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:25:39,720] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:25:54,798] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:26:23,646] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:27:00,527] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:28:15,955] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:28:56,439] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:30:29,120] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:31:40,985] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:33:14,503] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:33:26,075] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:33:30,491] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:33:34,691] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:33:37,747] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:33:41,233] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:33:43,402] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:33:47,002] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:33:52,528] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:34:32,960] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:34:41,255] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:35:16,035] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:35:18,043] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:35:19,744] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:35:22,109] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:35:23,619] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:35:25,210] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:35:29,086] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:35:31,536] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:35:34,672] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:35:37,042] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:35:39,183] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:36:16,441] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:38:55,378] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:39:21,112] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+[2017-12-12 20:46:33,868] ERROR in app: Exception on /doctor/dashboard/add-patient [POST]
+Traceback (most recent call last):
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 122, in decorated_view
+    return fn(*args, **kwargs)
+  File "/var/www/html/ems/app.py", line 784, in AddPatient
+    filename = images.save(form.image.data)
+  File "/var/www/html/ems/env/local/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
